@@ -125,6 +125,14 @@ function valueMaxCheat() {
     putJSONInTextarea(jdata);
 }
 
+function timeCheat(){
+    let jdata = getTextareaAsJSON();
+
+    jdata.settings.at = 11111;
+
+    putJSONInTextarea(jdata);
+}
+
 function madCheat() {
     let jdata = getTextareaAsJSON();
 
