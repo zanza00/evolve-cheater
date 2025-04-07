@@ -39,6 +39,12 @@
             </div>
             <hr />
             <div class="columns nested" name="nested-columns-0">
+              <hr />
+              <div class="field" id="timeCheat">
+                <label class="label">Time Manipulation</label>
+                <button class="button is-warning is-light" id="timeCheatBtn" title="Cheat the time">Warp Time</button>
+              </div>
+              <hr />
               <div class="column nested" name="nested-left-column-0">
                 <div class="field" id="buildingCheat">
                   <label class="label" title="Select upper & lower bounds">Add Buildings</label>
@@ -246,6 +252,9 @@
 
     document.getElementById("godsCheatBtn").addEventListener("click", function () {
       godsCheat();
+    }, false);
+    document.getElementById("timeCheatBtn").addEventListener("click", function () {
+        timeCheat();
     }, false);
 </script>
 </body>

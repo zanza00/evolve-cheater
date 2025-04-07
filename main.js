@@ -28,6 +28,7 @@ function runAll() {
             garrisonCheat();
             encodeArea();
             copyClipboard();
+            timeCheat();
         });
 }
 
